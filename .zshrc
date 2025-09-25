@@ -21,4 +21,8 @@ alias ni="npm install"
 alias nd="npm run dev"
 
 # GENERAL
-alias cl="clear"
+alias c="clear"
+
+# GIT (custom)
+alias gbnp='function _gbnp(){ git checkout -b "$1" && git push -u origin "$1"; }; _gbnp'
+alias glb="git checkout -"
